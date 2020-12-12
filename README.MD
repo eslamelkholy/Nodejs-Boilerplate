@@ -1,7 +1,22 @@
-# This Application Proviced Boilerplates For Nodejs Environment
+# This Application Includes Boilerplates For Nodejs Environment
 
-## TODO
+### Features
 
+- Services Architecture
+- Javascript ES6 Syntax
+- Logging And Montoring
+- Dockerizing Whole Application
+- Central Error Handling
+- 404 Page
+- PM2 For Development & Production Environment
+- Test Environment
+- Clean Architecture To Easy Switch From Monolith To Microservices
+- And More Featuress
+
+### TODO List
+
+- Dockerizing Whole Application
+- 404 Page
+- Central Error Handling
 - Add Test Environment
 - Production Environment
-- Dockerizing Whole Application
