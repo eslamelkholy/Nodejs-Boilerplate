@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 6666;
 
 expressMiddlewares(app);
 app.use("", Router);
+
 app.use((err, req, res, next) => handleError(err, res));
 
 app.listen(PORT, () => logger.info(`Nodejs Running on Port ${PORT}`));
