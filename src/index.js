@@ -4,10 +4,10 @@ import "./models";
 import expressMiddlewares from "./middlewares/expressMiddlewares";
 import logger from "./Shared/lib/logger";
 import { handleError } from "./Shared/lib/error";
-import { PAGE_NOT_FOUND } from "./Shared/Constants";
+import { PAGE_NOT_FOUND, STARTING_MSG } from "./Shared/Constants";
 
 const app = express();
-const PORT = process.env.PORT || 6666;
+const PORT = process.env.PORT;
 
 expressMiddlewares(app);
 app.use("", Router);
@@ -22,4 +22,4 @@ app.use((err, req, res, next) => {
   handleError(err, res);
 });
 
-app.listen(PORT, () => logger.info(`Nodejs Running on Port ${PORT}`));
+app.listen(PORT, () => logger.info(`${STARTING_MSG} ${PORT}`));
