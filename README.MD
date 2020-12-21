@@ -17,6 +17,6 @@
 
 - Dockerizing Whole Application
 - 404 Page
-- Central Error Handling
+- Central Error Handling ( working on it )
 - Add Test Environment
 - Production Environment
