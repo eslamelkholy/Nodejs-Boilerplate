@@ -1,0 +1,8 @@
+version: "1"
+
+services:
+  node:
+
+networks:
+  node-boilerplate-network:
+    driver: bridge
