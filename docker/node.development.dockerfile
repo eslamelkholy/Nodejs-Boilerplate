@@ -10,11 +10,12 @@ WORKDIR /var/www
 
 RUN npm install -g pm2@latest
 RUN yarn install
+
 RUN mkdir -p /var/log/pm2
 
 EXPOSE $PORT
 
-ENTRYPOINT ["pm2", "start", "./src/config/pm2.config.js","--name","boilerplate","--log","/var/log/pm2/pm2.log","--watch","--no-daemon"]
+ENTRYPOINT ["/bin/bash", "./docker/scripts/node.sh"]
 
 
 # To build:
