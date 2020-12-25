@@ -13,6 +13,6 @@ app.get("404", (req, res, next) => {
 
 app.use("/courses", courses);
 
-app.get("/", (req, res) => res.json({ message: "welcome" }));
+app.get("/", (req, res) => res.json({ message: "welcome test2" }));
 
 export default app;

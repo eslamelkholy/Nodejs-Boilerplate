@@ -2,11 +2,9 @@ FROM node:latest
 
 LABEL author="Eslam Elkholy"
 
-ENV NODE_ENV=development
 ENV PORT=4000
 
-COPY . /var/www
-WORKDIR /var/www
+WORKDIR /var/www/boilerplate
 
 RUN npm install -g pm2@latest
 RUN yarn install
