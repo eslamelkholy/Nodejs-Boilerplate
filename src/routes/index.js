@@ -13,6 +13,10 @@ app.get("404", (req, res, next) => {
 
 app.use("/courses", courses);
 
-app.get("/", (req, res) => res.json({ message: "welcome test2" }));
+app.get("/", (req, res) =>
+  res.json({
+    message1: "Changes in Code in Development Now Reflects in Docker",
+  })
+);
 
 export default app;
