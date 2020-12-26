@@ -4,6 +4,19 @@
 version: "3"
 
 services:
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: ./docker/nginx.${APP_ENV}.dockerfile
+    depends_on:
+      - node
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - node-boilerplate-network
+
   node:
     container_name: nodejs-boilerplate
     build:
