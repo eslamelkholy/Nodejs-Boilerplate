@@ -26,5 +26,6 @@ export default (sequelize, DataTypes) => {
       modelName: "payment",
     }
   );
+
   return payment;
 };

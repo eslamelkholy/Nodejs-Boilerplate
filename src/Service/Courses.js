@@ -1,6 +1,8 @@
+import db from "../models";
 class Courses {
   async getCourses() {
-    return [1, 2, 3];
+    const courses = await db.payment.findAll({});
+    return courses;
   }
 }
 

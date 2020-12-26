@@ -16,7 +16,4 @@
 ### TODO List
 
 - Dockerizing Whole Application
-- 404 Page
-- Central Error Handling ( working on it )
-- Add Test Environment
-- Production Environment
+- Add Test Files
