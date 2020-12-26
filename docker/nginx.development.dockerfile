@@ -5,10 +5,10 @@ LABEL author="Eslam Elkholy"
 VOLUME /var/cache/nginx
 
 # Copy custom nginx config
-COPY ./.docker/config/nginx.development.conf /etc/nginx/nginx.conf
+COPY ./docker/config/nginx.development.conf /etc/nginx/nginx.conf
 
 # Copy custom nginx config
-COPY ./public /var/www/public
+# COPY ./public /var/www/public
 
 # Copy self-signing cert: https://devcenter.heroku.com/articles/ssl-certificate-self
 COPY ./.certs/server.crt    /etc/nginx/server.crt

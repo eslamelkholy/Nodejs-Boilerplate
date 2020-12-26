@@ -1,7 +1,7 @@
 # Depends_on Control Services Startup Order
 # Don't Forget Set Environment Variables Before Run This yml file
 # APP_ENV=development || production
-version: "2"
+version: "3"
 
 services:
   node:

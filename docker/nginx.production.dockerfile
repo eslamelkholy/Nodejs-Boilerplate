@@ -5,7 +5,7 @@ LABEL author="Eslam Elkholy"
 VOLUME /var/cache/nginx
 
 # Copy custom nginx config
-COPY ./.docker/config/nginx.production.conf /etc/nginx/nginx.conf
+COPY ./docker/config/nginx.production.conf /etc/nginx/nginx.conf
 
 # Copy custom nginx config
 COPY ./public /var/www/public
