@@ -6,6 +6,7 @@
 - Javascript ES6 Syntax
 - Logging And Montoring
 - Dockerizing Whole Application
+- Using Kubernetes For Automating Deployment, Scaling and Management Of Containerized App
 - Central Error Handling
 - 404 Page
 - PM2 For Development & Production Environment
