@@ -2,10 +2,11 @@
 
 ### Features
 
-- Services Architecture
 - Javascript ES6 Syntax
 - Logging And Montoring
+- Services Architecture
 - Dockerizing Whole Application
+- Using Kubernetes For Automating Deployment, Scaling and Management Of Containerized App
 - Central Error Handling
 - 404 Page
 - PM2 For Development & Production Environment
@@ -15,5 +16,7 @@
 
 ### TODO List
 
-- Dockerizing Whole Application
-- Add Test Files
+- 1- Add Test Files To Following TDD Principle
+- 2- RESTful Api With TypeScript Separate Project
+- 3- GraphQL Separate Project
+- 4- GrapQL & TypeScript Separate Project

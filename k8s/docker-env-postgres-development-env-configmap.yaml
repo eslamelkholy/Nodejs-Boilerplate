@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  DB_HOST: postgres
+  POSTGRES_DB: DependencyInversion
+  POSTGRES_PASSWORD: postgres123
+  POSTGRES_USER: postgres
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: postgres-docker-env-postgres-development-env
+  name: docker-env-postgres-development-env
